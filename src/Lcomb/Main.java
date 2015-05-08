@@ -48,8 +48,8 @@ public class Main {
                 result.add(b.get(i));
             }
         }
-        for(int i=0; i<result.size(); i++){
-            System.out.print(result.get(i)+ " ");
+        for(String i:result){
+            System.out.print(i + " ");
         }
     }
 }
